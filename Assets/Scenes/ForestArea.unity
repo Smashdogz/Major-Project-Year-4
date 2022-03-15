@@ -3658,7 +3658,7 @@ MonoBehaviour:
   voiceDetectionThreshold: 0.01
   voiceDetectionDelayMs: 500
   unityMicrophoneDevice: 
-  photonMicrophoneDeviceId: -1
+  photonMicrophoneDeviceId: 0
   interestGroup: 0
   debugEchoMode: 0
   reliableMode: 0
@@ -3704,7 +3704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisconnectAfterKeepAlive: 0
   KeepAliveInBackground: 60000
-  ApplyDontDestroyOnLoad: 1
+  ApplyDontDestroyOnLoad: 0
   logLevel: 1
   enableSupportLogger: 0
   updateInterval: 50
@@ -5381,8 +5381,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1453174164}
-  - component: {fileID: 1453174163}
   - component: {fileID: 1453174165}
+  - component: {fileID: 1453174163}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -5399,9 +5399,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453174162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bef0d681c36479542b15acaa2bc2bf8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c3f9b2044e18b545aa1026396e66317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputHelpers: 1
+  controller: 4
 --- !u!4 &1453174164
 Transform:
   m_ObjectHideFlags: 0
