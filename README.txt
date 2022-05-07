@@ -1,5 +1,5 @@
 -------------IMPORTANT!!!!-------------------
-In order to run the game go into the build folder 
+In order to run the game go into the FullGame folder 
 
 then unzip the sharedassests4.assets.zip and place 
 
