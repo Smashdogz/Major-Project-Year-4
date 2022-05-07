@@ -256,6 +256,7 @@ MonoBehaviour:
   - {fileID: 379663463934268869}
   - {fileID: 891377219985801711}
   - {fileID: 9072893247678650131}
+  - {fileID: 7726754487011591483}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0f7cde90334ed44b6c065a27559edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 8127534541255484596}
+  head: {fileID: 1731831366676527681}
   leftHand: {fileID: 5401203224639325371}
   rightHand: {fileID: 1469926314257454078}
 --- !u!114 &1596946580810697829
